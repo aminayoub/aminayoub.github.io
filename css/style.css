@@ -32,6 +32,19 @@ body h1,h2,h3,h4,h5,h6{
     background-position: center;
 	position: relative;
 }
+
+#content {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;   
+}
+
+#content2 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .top-header {
 	padding: 2em 0;
 }
@@ -1082,7 +1095,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 .mail_us{
 	    margin-bottom: 50px;
     margin-top: 50px;
-    margin-left: 380px;
+    
 }
 .contact-grid1-left {
     width: 100%;
@@ -1504,7 +1517,7 @@ span.border.two:after {
 	}
 }
 @media(max-width:640px){
-	.mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
+	/*.mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
 		background: none;
 		width: 100%;
 		color: #777;
@@ -1521,9 +1534,11 @@ span.border.two:after {
 	.mail_right input[type="submit"] {
 		font-size: 15px;
 		padding: 11px 40px;
-	}
+	} */
 	.contact-grid1-left1 {
       padding: 1em;
+        margin-left: auto;
+        margin-right: auto;
 	}
 	.mail_left {
 		padding: 0;
@@ -1531,6 +1546,8 @@ span.border.two:after {
 	.mail_us {
 		margin-bottom:12px;
 		margin-top: 27px;
+        margin-left: auto;
+        margin-right: auto;
 	}
 	.news-text h3 {
 		font-size: 1.1em;
