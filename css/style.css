@@ -36,15 +36,9 @@ body h1,h2,h3,h4,h5,h6{
 #content {
     width: 300px;
     margin-left: auto;
-    margin-right: auto;
-    position: relative;   
+    margin-right: auto;  
 }
 
-#content2 {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .top-header {
 	padding: 2em 0;
 }
