@@ -39,6 +39,23 @@ body h1,h2,h3,h4,h5,h6{
     margin-right: auto;  
 }
 
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    
+    color: black;
+}
+
 .top-header {
 	padding: 2em 0;
 }
@@ -1097,11 +1114,11 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 .contact-grid1-left1 {
     padding: 2em;
     border-bottom: 1px ridge rgb(214, 212, 212);
-    background:#fff;
+    background: #fff;
     text-align: center;
 }
 .contact-grid1-left1 span {
-    font-size: 1.5em;
+    font-size: 5.5em;
       color: #cc0000;
 }
 .contact-grid1-left1 ul{
@@ -1117,7 +1134,8 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     color: #999;
 }
 .contact-grid1-left1 a {
-      font-size: 14px;
+    margin-right: 10px;
+      font-size: 35px;
     color: #cc0000;
     text-decoration: none;
 }
